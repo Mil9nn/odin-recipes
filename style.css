@@ -1,0 +1,71 @@
+body {
+    line-height: 1.7;
+}
+
+.recipe-navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.header-sec {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #81b29a;
+    font-weight: bold;
+    font-family: sans-serif, Arial, Helvetica;
+    display: flex;
+    gap: 50px;
+}
+
+.recipe-navbar a:link {
+    text-decoration: none;
+    color: #000
+}
+
+.recipe-navbar a:visited {
+    color: #32354F;
+}
+
+.recipe-navbar a:hover {
+    color: #32354F;
+}
+
+.header-img {
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+/* Styling Sprouts Page */
+
+.recipe-section {
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: #81b29a;
+    font-family: sans-serif, Arial, Helvetica;
+    padding: 30px;
+}
+
+.recipe-img {
+    border-radius: 12px;
+    max-width: 325px;
+}
+
+.recipe-section figure {
+    text-align: left;
+}
+
+.description-heading {
+    margin-top: 40px;
+}
+
+.ingredients-heading {
+    margin-top: 40px;
+}
+
+.steps-heading {
+    margin-top: 40px;
+}
+
